@@ -171,13 +171,6 @@ For this type of tabular data problem, tree-based ensemble models are expected t
 *   **Validation:** Use **Stratified K-Fold Cross-Validation** (with 5 or 10 folds) to get a reliable and robust estimate of model performance across the entire dataset.
 """
 
-# Write the content to a Markdown file
-with open("EDA_Summary.md", "w") as f:
-    f.write(markdown_content)
-
-print("EDA_Summary.md file has been created successfully.")
-IGNORE_WHEN_COPYING_START
-content_copy
 download
 Use code with caution.
 Python
