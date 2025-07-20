@@ -1,8 +1,5 @@
 # Spaceship-Titanic
 
-Of course. Here is the summary and recommendations formatted as a Markdown file. You can copy the content below and save it as EDA_Summary.md.
-
-Generated markdown
 # Spaceship Titanic: EDA Summary & Recommendations for Modeling
 
 This document provides a summary of the Exploratory Data Analysis (EDA) conducted on the Spaceship Titanic dataset, followed by recommendations for feature engineering and model selection.
