@@ -168,7 +168,3 @@ For this type of tabular data problem, tree-based ensemble models are expected t
 *   **Validation:** Use **Stratified K-Fold Cross-Validation** (with 5 or 10 folds) to get a reliable and robust estimate of model performance across the entire dataset.
 """
 
-download
-Use code with caution.
-Python
-IGNORE_WHEN_COPYING_END
