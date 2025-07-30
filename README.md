@@ -4,7 +4,7 @@
 
 This document provides a summary of the Exploratory Data Analysis (EDA) conducted on the Spaceship Titanic dataset, followed by  Feature Engineering, Modelling, Hyperparameter Tuning, and Evaluation
 
-## 1. Summary of Exploratory Data Analysis (EDA)
+## 1. Exploratory Data Analysis (EDA)
 
 The EDA provided a solid foundation for understanding the dataset's structure, quality, and predictive features.
 
@@ -66,23 +66,24 @@ Based on the EDA, the following data preprocessing and feature creation steps ar
 
 ## 4. Model Selection and Training
 
-### Baseline Model
+### 1. Baseline Model
 *   **Logistic Regression:** An excellent choice for a baseline. It's simple, fast, and provides interpretable coefficients, which can validate the feature engineering steps.
 
-### Primary Model Candidates
+### 2. Primary Model Candidates
 For this type of tabular data problem, tree-based ensemble models are expected to perform the best.
 *   **Random Forest:** A robust and reliable model that is less prone to overfitting and generally performs well out-of-the-box.
 *   **Gradient Boosting Machines (GBMs):**
     *   **LightGBM:** Highly recommended due to its speed and excellent performance on tabular data. It's great for quick experimentation.
     *   **XGBoost:** A powerful and popular alternative, often a top performer in similar classification tasks.
 
-### 6. Hyperparameter Tuning with RandomizedSearchCV
+---
+
+### 5. Hyperparameter Tuning with RandomizedSearchCV
 * The model can be further enhanced with the use of RandomizedSearchCV and find the best parameters for the best-performing model.
 
-### 7. Evaluation Strategy
+---
+
+### 6. Evaluation Strategy
 *   **Metric:** Since the classes are balanced, **Accuracy** is a very good primary metric. For a more comprehensive evaluation, also track the **AUC-ROC score**.
 *   **Validation:** Use **Stratified K-Fold Cross-Validation** (with 5 or 10 folds) to get a reliable and robust estimate of model performance across the entire dataset.
-
-
-
 
